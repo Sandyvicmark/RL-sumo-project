@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<input>
+		<net-file value='tls.net.xml'/>
+		<route-files value='tls.rou.xml'/>
+	</input>
+	<report>
+		<verbose value='true'/>
+		<no-step-log value='true'/>
+		<step-length value='0.2'/>
+	</report>
+</configuration>

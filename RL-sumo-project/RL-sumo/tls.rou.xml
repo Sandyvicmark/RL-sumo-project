@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+	<vType id='car' accel='2' decel='3.5' emergencyDecel='10' maxSpeed='20' length='5' sigma='1' tau='1.5' carFollowModel='IDM' delta='4' vClass='passenger' minGap='2' laneChangeMode='0'/>
+
+	<route id="we" edges="e00 e0 -e0 -e00" />
+	<route id="ns" edges="e10 e1 -e1 -e10" />
+	<route id="ew" edges="e20 e2 -e2 -e20" />
+	<route id="sn" edges="e30 e3 -e3 -e30" />
+	<route id="wn" edges="e00 e0 -e3 -e30" />
+	<route id="ne" edges="e10 e1 -e0 -e00" />
+	<route id="es" edges="e20 e2 -e1 -e10" />
+	<route id="sw" edges="e30 e3 -e2 -e20" />
+	<route id="ws" edges="e00 e0 -e1 -e10" />
+	<route id="nw" edges="e10 e1 -e2 -e20" />
+	<route id="en" edges="e20 e2 -e3 -e30" />
+	<route id="se" edges="e30 e3 -e0 -e00" />
+	
+	<flow id="flow_we" route='we' type='car' begin='0' end='100000' vehsPerHour='500' departSpeed='20' departPos='base' departLane='best' />
+	<flow id="flow_ns" route='ns' type='car' begin='0' end='100000' vehsPerHour='500' departSpeed='20' departPos='base' departLane='best' />
+	<flow id="flow_ew" route='ew' type='car' begin='0' end='100000' vehsPerHour='500' departSpeed='20' departPos='base' departLane='best' />
+	<flow id="flow_sn" route='sn' type='car' begin='0' end='100000' vehsPerHour='500' departSpeed='20' departPos='base' departLane='best' />
+	<flow id="flow_wn" route='wn' type='car' begin='0' end='100000' vehsPerHour='300' departSpeed='20' departPos='base' departLane='best' />
+	<flow id="flow_ne" route='ne' type='car' begin='0' end='100000' vehsPerHour='300' departSpeed='20' departPos='base' departLane='best' />
+	<flow id="flow_es" route='es' type='car' begin='0' end='100000' vehsPerHour='300' departSpeed='20' departPos='base' departLane='best' />
+	<flow id="flow_sw" route='sw' type='car' begin='0' end='100000' vehsPerHour='300' departSpeed='20' departPos='base' departLane='best' />
+	<flow id="flow_ws" route='ws' type='car' begin='0' end='100000' vehsPerHour='200' departSpeed='20' departPos='base' departLane='best' />
+	<flow id="flow_nw" route='nw' type='car' begin='0' end='100000' vehsPerHour='200' departSpeed='20' departPos='base' departLane='best' />
+	<flow id="flow_en" route='en' type='car' begin='0' end='100000' vehsPerHour='200' departSpeed='20' departPos='base' departLane='best' />
+	<flow id="flow_se" route='se' type='car' begin='0' end='100000' vehsPerHour='200' departSpeed='20' departPos='base' departLane='best' />
+
+</routes>

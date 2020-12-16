@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+	<vType id='car' accel='2' decel='3.5' emergencyDecel='5' maxSpeed='10' length='5' sigma='1' tau='1.5' carFollowModel='IDM' delta='4' vClass='passenger' minGap='2'/>
+	<vType id='test-car' accel='2' decel='3' emergencyDecel='5' maxSpeed='15' length='5' sigma='0.2' tau='1.5' carFollowModel='IDM' delta='4' vClass='passenger' minGap='2'/>
+	<vType id='dqn-car' accel='2' decel='3' maxSpeed='15' length='5' tau='-10' minGap='0' vClass='passenger' color='red' speedMode='0'/>
+	<vType id='dqn-car-999' accel='2' decel='3' maxSpeed='15' length='5' tau='-10' minGap='0' vClass='passenger' color='red' speedMode='0'/>
+	<route id='route1' edges='edge2 edge3'/>
+	<vehicle id='0' type='car' depart='0' route='route1'/>
+	<vehicle id='1' type='car' depart='5' route='route1'/>
+	<vehicle id='999' type='dqn-car-999' depart='10' route='route1'/>
+	<vehicle id='2' type='car' depart='15' route='route1'/>
+	
+	<vehicle id='4' type='car' depart='25' route='route1'/>
+	
+	<vehicle id='5' type='car' depart='35' route='route1'/>
+	<vehicle id='6' type='car' depart='40' route='route1'/>
+	
+	<vehicle id='7' type='car' depart='45' route='route1'/>
+	<vehicle id='8' type='car' depart='50' route='route1'/>
+	<vehicle id='9' type='car' depart='55' route='route1'/>
+	
+	
+	
+	
+<!--
+	
+	
+	<flow id='dqn' route='route1' begin='0' end='100000' vehsPerHour='1' color='red' />
+	<flow id='idm' route='route1' begin='1' end='100000' vehsPerHour='10' />
+	
+	<vehicle id='996' type='dqn-car' depart='20' route='route1'/> 
+	<vehicle id='998' type='dqn-car' depart='30' route='route1'/> 
+	<vehicle id='997' type='dqn-car' depart='45' route='route1'/> 
+	
+	<vehicle id='10' type='car' depart='60' route='route1'/>
+	<vehicle id='11' type='car' depart='65' route='route1'/>
+	<vehicle id='12' type='car' depart='70' route='route1'/>
+	
+-->
+	
+	
+</routes>

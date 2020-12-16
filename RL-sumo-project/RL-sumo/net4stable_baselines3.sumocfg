@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<input>
+		<net-file value='net4stable_baselines3.net.xml'/>
+		<route-files value='net4stable_baselines3.rou.xml'/>
+		<additional-files value='net.add.xml'/>
+	</input>
+	<report>
+		<verbose value='true'/>
+		<no-step-log value='true'/>
+		<step-length value='0.1'/>
+	</report>
+</configuration>

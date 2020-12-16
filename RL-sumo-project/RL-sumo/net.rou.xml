@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+	<vType id='car' accel='2' decel='3.5' emergencyDecel='5' maxSpeed='10' length='5' sigma='1' tau='1' carFollowModel='IDM' delta='4' vClass='passenger' minGap='3' laneChangeMode='0'/>
+	<vType id='test-car' accel='2' decel='3.5' emergencyDecel='5' maxSpeed='10' length='5' sigma='1' tau='1' carFollowModel='IDM' delta='4' vClass='passenger' minGap='3' color='1,0,0'/>
+	<vType id='rl-car' accel='2' decel='3' maxSpeed='15' length='5' tau='-10' minGap='-0.1' vClass='passenger' color='red' speedMode='0' laneChangeMode='0'/>
+	<vType id='rl-car-999' accel='2' decel='3' maxSpeed='15' length='5' tau='-10' minGap='-0.1' vClass='passenger' color='0.96,0.08,0.76' speedMode='0' laneChangeMode='0'/>
+	<route id='route1' edges='edge290 edge390'/>
+	
+	<vehicle id='0' type='rl-car' depart='0' route='route1'/>
+	<vehicle id='1' type='car' depart='0' route='route1'/>
+	<vehicle id='2' type='car' depart='0' route='route1'/>
+	<vehicle id='3' type='car' depart='0' route='route1'/>
+	<vehicle id='4' type='car' depart='0' route='route1'/>
+	<vehicle id='5' type='car' depart='0' route='route1'/>
+	<vehicle id='6' type='car' depart='0' route='route1'/>
+	<vehicle id='7' type='car' depart='0' route='route1'/>
+	<vehicle id='8' type='car' depart='0' route='route1'/>
+	<vehicle id='9' type='car' depart='0' route='route1'/>
+	<vehicle id='10' type='car' depart='0' route='route1'/>
+	<vehicle id='11' type='car' depart='0' route='route1'/>
+	<vehicle id='12' type='rl-car' depart='0' route='route1'/>
+	<vehicle id='13' type='car' depart='0' route='route1'/>
+	<vehicle id='14' type='car' depart='0' route='route1'/>
+	<vehicle id='15' type='car' depart='0' route='route1'/>
+	<vehicle id='16' type='car' depart='0' route='route1'/>
+	<vehicle id='17' type='car' depart='0' route='route1'/>	
+	<vehicle id='18' type='car' depart='0' route='route1'/>
+	<vehicle id='19' type='car' depart='0' route='route1'/>
+	<vehicle id='20' type='car' depart='0' route='route1'/>
+	<vehicle id='21' type='car' depart='0' route='route1'/>
+	<vehicle id='22' type='car' depart='0' route='route1'/>
+	<vehicle id='23' type='car' depart='0' route='route1'/>
+	<vehicle id='24' type='car' depart='0' route='route1'/>
+	
+	
+<!--
+	
+	<vehicle id='2' type='car' depart='0' route='route1'/>
+	<vehicle id='3' type='car' depart='0' route='route1'/>
+	<vehicle id='4' type='car' depart='0' route='route1'/>
+	<vehicle id='5' type='car' depart='0' route='route1'/>
+	<vehicle id='6' type='car' depart='0' route='route1'/>
+	<vehicle id='7' type='car' depart='0' route='route1'/>
+	<vehicle id='8' type='car' depart='0' route='route1'/>
+	<vehicle id='9' type='car' depart='0' route='route1'/>
+	<vehicle id='10' type='car' depart='0' route='route1'/>
+	<vehicle id='11' type='car' depart='0' route='route1'/>
+	<vehicle id='12' type='car' depart='0' route='route1'/>
+	<vehicle id='13' type='car' depart='0' route='route1'/>
+	<vehicle id='14' type='car' depart='0' route='route1'/>
+	<vehicle id='15' type='car' depart='0' route='route1'/>
+	<vehicle id='16' type='car' depart='0' route='route1'/>
+	<vehicle id='17' type='car' depart='0' route='route1'/>	
+	<vehicle id='18' type='car' depart='0' route='route1'/>
+	<vehicle id='19' type='car' depart='0' route='route1'/>
+	<vehicle id='20' type='car' depart='0' route='route1'/>
+	<vehicle id='21' type='car' depart='0' route='route1'/>
+	<vehicle id='22' type='car' depart='0' route='route1'/>
+	<vehicle id='23' type='car' depart='0' route='route1'/>
+	<vehicle id='999' type='dqn-car' depart='0' route='route1'/>	
+
+	<vehicle id='1' type='car' depart='0' route='route1'/>
+
+	<vehicle id='2' type='car' depart='0' route='route1'/>
+	<vehicle id='3' type='car' depart='0' route='route1'/>
+	<vehicle id='4' type='car' depart='0' route='route1'/>
+	<vehicle id='5' type='car' depart='0' route='route1'/>
+	<vehicle id='6' type='car' depart='0' route='route1'/>
+	<vehicle id='7' type='car' depart='0' route='route1'/>
+	<vehicle id='8' type='car' depart='0' route='route1'/>
+	<vehicle id='9' type='car' depart='0' route='route1'/>
+	<vehicle id='10' type='car' depart='0' route='route1'/>
+	<vehicle id='11' type='car' depart='0' route='route1'/>
+	<vehicle id='12' type='car' depart='0' route='route1'/>
+	<vehicle id='13' type='car' depart='0' route='route1'/>
+	<vehicle id='14' type='car' depart='0' route='route1'/>
+	<vehicle id='15' type='car' depart='0' route='route1'/>
+	<vehicle id='16' type='car' depart='0' route='route1'/>
+	<vehicle id='17' type='car' depart='0' route='route1'/>	
+	<vehicle id='18' type='car' depart='0' route='route1'/>
+	<vehicle id='19' type='car' depart='0' route='route1'/>
+	<vehicle id='20' type='car' depart='0' route='route1'/>
+	<vehicle id='21' type='car' depart='0' route='route1'/>
+	<vehicle id='22' type='car' depart='0' route='route1'/>
+	<vehicle id='23' type='car' depart='0' route='route1'/>
+
+	<vehicle id='14' type='car' depart='0' route='route1'/>
+	<vehicle id='15' type='car' depart='0' route='route1'/>
+	<vehicle id='16' type='car' depart='0' route='route1'/>
+	<vehicle id='17' type='car' depart='0' route='route1'/>	
+	<vehicle id='18' type='car' depart='0' route='route1'/>
+	<vehicle id='19' type='car' depart='0' route='route1'/>
+	<vehicle id='20' type='car' depart='0' route='route1'/>
+	<vehicle id='21' type='car' depart='0' route='route1'/>
+	<vehicle id='22' type='car' depart='0' route='route1'/>
+	<vehicle id='23' type='car' depart='0' route='route1'/>
+
+	<vehicle id='24' type='car' depart='0' route='route1'/>
+	<vehicle id='25' type='test-car' depart='0' route='route1'/>
+	<vehicle id='26' type='car' depart='0' route='route1'/>
+	<vehicle id='27' type='car' depart='0' route='route1'/>
+	<vehicle id='28' type='car' depart='0' route='route1'/>
+	<vehicle id='29' type='dqn-car' depart='0' route='route1'/>
+	<vehicle id='30' type='car' depart='0' route='route1'/>
+	<vehicle id='31' type='car' depart='0' route='route1'/>
+	<vehicle id='32' type='car' depart='0' route='route1'/>
+	<vehicle id='33' type='car' depart='0' route='route1'/>
+	<vehicle id='34' type='car' depart='0' route='route1'/>
+	<vehicle id='35' type='car' depart='0' route='route1'/>
+	<vehicle id='36' type='car' depart='0' route='route1'/>
+	<vehicle id='37' type='car' depart='0' route='route1'/>
+	<vehicle id='38' type='car' depart='0' route='route1'/>
+
+
+	<vehicle id='24' type='car' depart='125' route='route1'/>
+	<vehicle id='25' type='test-car' depart='130' route='route1'/>
+	<vehicle id='26' type='car' depart='135' route='route1'/>
+	<vehicle id='27' type='car' depart='140' route='route1'/>
+	<vehicle id='28' type='car' depart='145' route='route1'/>
+	<vehicle id='29' type='car' depart='150' route='route1'/>
+	<vehicle id='30' type='car' depart='155' route='route1'/>
+	<vehicle id='31' type='car' depart='160' route='route1'/>
+	<vehicle id='32' type='car' depart='165' route='route1'/>
+	<vehicle id='33' type='car' depart='170' route='route1'/>
+	<vehicle id='34' type='car' depart='175' route='route1'/>
+	<vehicle id='35' type='car' depart='180' route='route1'/>
+	<vehicle id='36' type='car' depart='185' route='route1'/>
+	<vehicle id='37' type='car' depart='190' route='route1'/>
+	<vehicle id='38' type='car' depart='195' route='route1'/>
+	
+	<vehicle id='999' type='dqn-car' depart='250' route='route1'/>	
+
+
+	<vehicle id='998' type='dqn-car' depart='45' route='route1'/>
+	<vehicle id='997' type='dqn-car' depart='80' route='route1'/>
+	<vehicle id='996' type='dqn-car' depart='115' route='route1'/>
+	<vehicle id='20' type='car' depart='45' route='route1'/>
+	<vehicle id='21' type='car' depart='80' route='route1'/>
+	<vehicle id='22' type='car' depart='115' route='route1'/>
+	
+	<vehicle id='23' type='car' depart='45' route='route1'/>
+	<vehicle id='39' type='car' depart='200' route='route1'/>
+	<vehicle id='40' type='car' depart='215' route='route1'/>
+
+
+
+	
+	
+-->
+	
+	
+</routes>

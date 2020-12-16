@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additionals>
+	<rerouter id='re290' edges='edge290'>
+		<interval end='1e9'>
+			<destProbReroute id='edge390'/>
+		</interval>
+	</rerouter>
+	<rerouter id='re390' edges='edge390'>
+		<interval end='1e9'>
+			<destProbReroute id='edge290'/>
+		</interval>
+	</rerouter>
+	<rerouter id='rerouter2' edges='80'>
+		<interval end='1e9'>
+			<destProbReroute id='81'/>
+		</interval>
+	</rerouter>
+	<rerouter id='rerouter3' edges='81'>
+		<interval end='1e9'>
+			<destProbReroute id='82'/>
+		</interval>
+	</rerouter>
+	<rerouter id='rerouter4' edges='82'>
+		<interval end='1e9'>
+			<destProbReroute id='83'/>
+		</interval>
+	</rerouter>
+	<rerouter id='rerouter5' edges='83'>
+		<interval end='1e9'>
+			<destProbReroute id='84'/>
+		</interval>
+	</rerouter>
+	<rerouter id='rerouter6' edges='84'>
+		<interval end='1e9'>
+			<destProbReroute id='85'/>
+		</interval>
+	</rerouter>
+	<rerouter id='rerouter7' edges='85'>
+		<interval end='1e9'>
+			<destProbReroute id='80'/>
+		</interval>
+	</rerouter>
+</additionals>
